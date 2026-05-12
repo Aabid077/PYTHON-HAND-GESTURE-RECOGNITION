@@ -1,32 +1,3 @@
-#HAND GESTURE PROJECTS
-
-"""
-Hand Gesture Detection using MediaPipe and OpenCV
-==================================================
-Detects and classifies hand gestures in real-time using webcam.
- 
-Gestures Supported:
-  ✊ Fist        - All fingers closed
-  ✋ Open Hand   - All fingers open
-  👍 Thumbs Up   - Only thumb extended upward
-  👎 Thumbs Down - Only thumb extended downward
-  ✌️ Peace       - Index + Middle fingers open
-  🤘 Rock On     - Index + Pinky fingers open
-  👆 Pointing    - Only Index finger open
-  🤙 Call Me     - Thumb + Pinky fingers open
- 
-Requirements:
-    pip install opencv-python mediapipe
- 
-Usage:
-    python hand_gesture_detection.py
- 
-Controls:
-    Q / ESC - Quit
-    S       - Save screenshot
-    F       - Toggle FPS display
-"""
-
 import cv2
 import mediapipe as mp
 import math
